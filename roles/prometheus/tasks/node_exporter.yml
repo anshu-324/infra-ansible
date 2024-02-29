@@ -1,0 +1,5 @@
+- name: node exporter downloaded
+  ansible.builtin.unarchive:
+    src: "node_exporter-1.7.0.linux-amd64.tar.gz"
+    dest: "/opt"
+    remote_src: yes
