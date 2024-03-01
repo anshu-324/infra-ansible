@@ -1,0 +1,10 @@
+[Unit]
+Description = node exporter Service
+
+[Service]
+
+ExecStart=/opt/node_exporter-1.7.0.linux-amd64
+SyslogIdentifier=backend
+
+[Install]
+WantedBy=multi-user.target
