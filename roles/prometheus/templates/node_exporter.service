@@ -3,7 +3,7 @@ Description = node exporter Service
 
 [Service]
 
-ExecStart=/opt/node_exporter-1.7.0.linux-amd64
+ExecStart=/opt/node_exporter-{{Node_exporter_version}}.linux-amd64
 SyslogIdentifier=backend
 
 [Install]
