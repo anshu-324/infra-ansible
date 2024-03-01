@@ -35,4 +35,4 @@ scrape_configs:
     # scheme defaults to 'http'.
 
     static_configs:
-      - targets: ["172.31.16.19.online:9100"]
+      - targets: ["frontendmalleswaridevops.online:9100"]
