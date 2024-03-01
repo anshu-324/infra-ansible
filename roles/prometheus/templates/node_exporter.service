@@ -4,7 +4,7 @@ Description = node exporter Service
 [Service]
 
 ExecStart=/opt/node_exporter-{{Node_exporter_version}}.linux-amd64
-SyslogIdentifier=backend
+SyslogIdentifier=node_exporter
 
 [Install]
 WantedBy=multi-user.target
